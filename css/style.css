@@ -1,0 +1,17 @@
+h1 {
+	font-size: 20px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1::before {
+	content: "bu";
+}
+.s-1-h1::after {
+	content: "\272F";
+	font-size: 80px;
+	color: blue;
+
+
+}
